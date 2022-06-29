@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <p>1234</p>
+    <p>5678</p>
     <v-app-bar
       app
       color="pink lighten-5"
