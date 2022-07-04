@@ -1,31 +1,15 @@
 <template>
-  <v-app>
-    <p>1234</p>
-    <v-app-bar
-      app
-      color="pink lighten-5"
-      dark
-      
-    >
-    </v-app-bar>
-    <v-slider
-      background-color="primary">
-
-    </v-slider>
-    
-  </v-app>
+<CheckList />
 </template>
 
 <script>
-
+import CheckList from './components/CheckList.vue'
 
 export default {
   name: 'App',
-
   components: {
-
+    CheckList
   },
-
   data: () => ({
     //
   }),
